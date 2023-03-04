@@ -29,6 +29,14 @@
     </properties>
     <dependencyManagement>
             <dependencies>
+                <!-- spring-boot版本管理  -->
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-dependencies</artifactId>
+                    <version>${spring-boot.version}</version>
+                    <type>pom</type>
+                    <scope>import</scope>
+                </dependency>
                 <!-- spring-cloud主版本管理  -->
                 <dependency>
                     <groupId>org.springframework.cloud</groupId>
