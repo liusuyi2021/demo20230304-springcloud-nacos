@@ -1,0 +1,11 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: consumer9001
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+service-url:
+  nacos-user-service: http://spring-cloud-alibaba-provider #服务提供者的服务名
