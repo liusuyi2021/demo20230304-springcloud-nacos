@@ -1,0 +1,11 @@
+server:
+  port: 3377 #端口号
+spring:
+  profiles:
+    active: dev #激活 dev 的配置
+  application:
+    name: config-client #服务名
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848

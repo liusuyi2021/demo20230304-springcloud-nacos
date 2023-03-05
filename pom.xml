@@ -16,6 +16,7 @@
         <module>springcloud-product8001</module>
         <module>springcloud-product8003</module>
         <module>springcloud-consumer9001</module>
+        <module>springcloud-config</module>
     </modules>
 
     <properties>
